@@ -1,6 +1,18 @@
 # 4 pillars of OOPs
 # Encapsulation
 # Access Modifiers
+# decorators: change the behaviour of another method or function inside a function
+
+#OOPS
+
+# Encapsulation: It is the process of wrapping data and methods into a single unit. It is also known as data hiding. In encapsulation, the variables or data members of a class are hidden from other classes and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
+
+# Access Modifiers: In Python, there are three types of access modifiers: public, protected, and private. 
+# Public members are accessible from anywhere, protected members are accessible within the class and
+# its subclasses, and private members are accessible only within the class.
+
+#  private members are defined by prefixing the member name with two underscores (__).
+# protected members are defined by prefixing the member name with a single underscore (_).
 """class A:
     def __init__(self,name,age,gender): #constructor
         self.__name=name#private variable can be accessed inside of same class which defines with __name
@@ -60,4 +72,3 @@ b=Dog()
 print(a.sound())
 print(b.sound())
 # Polymorphism"""
-
